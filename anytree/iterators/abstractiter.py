@@ -1,7 +1,7 @@
-import six
+from typing import Iterator
 
 
-class AbstractIter(six.Iterator):
+class AbstractIter(Iterator):
     # pylint: disable=R0205
     """
     Iterate over tree starting at `node`.
